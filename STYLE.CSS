@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: o;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
@@ -90,4 +90,57 @@ button {
     left: 0;
     clip-path: circle(515px at right 561px);
     z-index: -1;
+}
+
+@media screen and ( max-width: 950px) {
+
+    body {
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    .logo {
+        width: 130px;
+        margin-top: 60px;
+        margin-left: 115px;
+    }
+
+    .circulo {
+        display: none;
+    }
+
+    h2 {
+        font-size: 40px;
+        font-weight: 500;
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 50px
+    }
+
+    span {
+        font-size: 65px;
+    }
+
+    .caixa-imagem {
+        display: none;
+    }
+
+    p {
+        display: none;
+    }
+
+    .caixa_texto {
+        width: 732px;
+        margin-top: 20px;
+    }
+
+    .botao-menu {
+        margin-top: 50px;
+    }
+
+    button {
+        margin-left: 150px
+    }
 }
