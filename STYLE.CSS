@@ -108,7 +108,7 @@ button {
     }
 
     .circulo {
-        display: none;
+        clip-path: circle(388px at right 975px);
     }
 
     h2 {
